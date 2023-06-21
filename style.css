@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+body {
+  
+  background-color: #000000;
+  color: white;
+  height: 100vh;
+  text-align: center;
+}
+
+.centrar-flex{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#contenedor{
+  height: 220px;
+  width: 450px;
+  background: transparent;
+  border: 5px solid white;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#color{
+  margin: 15px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+button{
+ font-size: 15px;
+ color: white;
+ border-radius: 15px;
+ margin: 15;
+ padding: 10px 20px;
+ border-style: none;
+ cursor: pointer;
+ user-select: none;
+ transition-duration: 0.4s;
+ background-color: transparent;
+ border: 2px solid white;
+ opacity: 10;
+}
+
+button:hover{
+background-color: transparent;
+
+color: white;
+
+}
+
+boton-copiar{
+  font-size: 15px;
+  color: purple;
+  border-radius: 15px;
+  margin: 15;
+  padding: 10px 30px;
+  border-style: none;
+  cursor: pointer;
+  user-select: none;
+  transition-duration: 0.4s;
+ }
+
+ boton-copiar:hover{
+  background-color: #ff00ff;
+  color: white;
+}
+
